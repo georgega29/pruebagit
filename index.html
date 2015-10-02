@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app>
+
+<head>
+    <meta charset="utf-8">
+    <title>tienda de verduras</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    </head>
+<body>
+    <h1> san jorge </h1>
+    
+    <ul>
+        <li>apio     {{50 | currency :"euro"}} </li>
+        <li>tomate   {{200 | currency :"centavo"}}</li>
+        <li>cebolla  {{500 +20 | currency : "soles"}} importado de {{"estados juntos" | uppercase}}</li>
+        <li> lechuga {{(600*30/100) +600 | currency}} importado de {{"INdia" | lowercase}}</li>
+        <li> pepino  {{500 | currency}}</li>
+    </ul>
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>

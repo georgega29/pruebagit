@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+    
+<head>
+    <meta charset="utf-8" >
+    <title> Expresiones AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"> </script>
+    
+    </head>
+    <body>
+        <P>tomate a {{600 | currency}} el kilo</P>
+        <label> cantidad:</label>
+        <input type="text" ng-model="CANTIDAD ">
+        
+        
+        <div class="tarjeta">
+            
+            <h2> costo de la verdura</h2>
+            <h1> {{600 * CANTIDAD | currency }}</h1>
+            
+        </div>
+    </body>
+</html>
